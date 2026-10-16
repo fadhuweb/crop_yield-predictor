@@ -22,16 +22,14 @@ The backend is hosted using FastAPI and provides predictions via a public endpoi
   "admin_1": "Kano",
   "product": "Maize",
   "season_name": "Main",
-  "planting_year": 2025,
   "planting_month": 5,
-  "harvest_year": 2026,
   "harvest_month": 9,
   "crop_production_system": "Rainfed (PS)",
   "area": 3.5
 }
 ```
 
-**Exxpected JSON output:**
+**Expected JSON output:**
 
 ```json
 {
@@ -49,8 +47,8 @@ A cross-platform Flutter app was built to serve as a user-friendly frontend for 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/fadhuweb/linear_regression_model.git
-   cd FlutterApp\crop_yield_predictor
+   git clone https://github.com/fadhuweb/crop_yield-predictor.git
+   cd crop_yield-predictor/FlutterApp/crop_yield_predictor
    ```
 
 2. **Install Dependencies**
@@ -79,7 +77,7 @@ https://drive.google.com/file/d/1hWo2lzUCKUAbWPolhOMdZJQpHzcDZj8P/view?usp=shari
 - Python (FastAPI)
 - Scikit-learn (Model training)
 - Flutter (Frontend)
-- Hosted on: Render + GitHub Pages
+- Hosted on: Render
 
 ---
 
